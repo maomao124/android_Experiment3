@@ -24,5 +24,68 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+        findViewById(R.id.Button2).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, MainActivity3.class));
+            }
+        });
+
+        findViewById(R.id.Button3).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, MainActivity4.class));
+            }
+        });
+
+        findViewById(R.id.Button4).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, MainActivity5.class));
+            }
+        });
+
+        findViewById(R.id.Button5).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, MainActivity6.class));
+            }
+        });
+
+        findViewById(R.id.Button6).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, MainActivity2.class));
+            }
+        });
+
+        findViewById(R.id.Button7).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, MainActivity2.class));
+            }
+        });
+
+        findViewById(R.id.Button8).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, MainActivity2.class));
+            }
+        });
+
     }
 }
